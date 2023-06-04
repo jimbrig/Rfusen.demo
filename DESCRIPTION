@@ -1,15 +1,24 @@
 Package: Rfusen.demo
-Version: 0.0.0.9000
 Title: Build A Package From Rmarkdown File
-Description: Use Rmarkdown First method to build your package. Start your package with documentation. Everything can be set from a Rmarkdown file in your project.
-Authors@R: person("Jimmy", "Briggs",
-                         email = "jimmy.briggs@jimbrig.com",
-                         role = c("aut", "cre"),
-                         comment = c(ORCID = "0000-0002-7489-8787"))
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jimmy", "Briggs", , "jimmy.briggs@jimbrig.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-7489-8787"))
+Description: Use Rmarkdown First method to build your package. Start your
+    package with documentation. Everything can be set from a Rmarkdown
+    file in your project.
 License: MIT + file LICENSE
-Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
-Language: en-US
 URL: https://github.com/jimbrig/Rfusen.demo
 BugReports: https://github.com/jimbrig/Rfusen.demo/issues
+Imports: 
+    stats
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+Language: en-US
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3

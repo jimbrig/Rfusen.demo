@@ -18,14 +18,12 @@ fusen::fill_description(
   fields = list(
     Title = "Build A Package From Rmarkdown File",
     Description = "Use Rmarkdown First method to build your package. Start your package with documentation. Everything can be set from a Rmarkdown file in your project.",
-    `Authors@R` = c(
-      person("Sebastien", "Rochette", email = "sebastien@thinkr.fr", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-1565-9313")),
-      person(given = "ThinkR", role = "cph")
+    `Authors@R` = .Options$usethis.description$`Authors@R`
     )
-  )
 )
+
 # Define License with use_*_license()
-usethis::use_mit_license("Sébastien Rochette")
+usethis::use_mit_license("Jimmy Briggs | 2023")
 ```
 
 # Start using git
@@ -46,7 +44,7 @@ remotes::install_local()
 # README
 usethis::use_readme_rmd()
 # Code of Conduct
-usethis::use_code_of_conduct("contact@fake.com")
+usethis::use_code_of_conduct("jimmy.briggs@jimbrig.com")
 # NEWS
 usethis::use_news_md()
 ```
@@ -59,7 +57,7 @@ usethis::use_news_md()
 
 ```{r, eval=FALSE}
 # Pipe
-usethis::use_pipe()
+# usethis::use_pipe()
 
 # package-level documentation
 usethis::use_package_doc()
@@ -76,7 +74,7 @@ usethis::use_github_action_check_standard()
 usethis::use_github_action("pkgdown")
 usethis::use_github_action("test-coverage")
 # _GitLab
-gitlabr::use_gitlab_ci(type = "check-coverage-pkgdown")
+# gitlabr::use_gitlab_ci(type = "check-coverage-pkgdown")
 
 # Add new flat template
 fusen::add_flat_template("add")

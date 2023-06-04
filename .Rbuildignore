@@ -1,3 +1,12 @@
 
 ^dev$
 ^LICENSE\.md$
+^.*\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$
+^CODE_OF_CONDUCT\.md$
+^\.github$
+^Rfusen\.demo\.Rproj$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

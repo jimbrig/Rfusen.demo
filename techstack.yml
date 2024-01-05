@@ -1,7 +1,8 @@
 repo_name: jimbrig/Rfusen.demo
 report_id: 29691f90882bda452d6a4a963e5adc63
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-07T20:28:17+00:00'
+timestamp: '2024-01-05T08:28:00+00:00'
 requested_by: jimbrig
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1147/markdown.png
+  detection_source_url: https://github.com/jimbrig/Rfusen.demo/blob/main/DESCRIPTION
   detection_source: DESCRIPTION
   last_updated_by: Jimmy Briggs
   last_updated_on: 2023-06-04 00:09:37.000000000 Z
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1213/r-logo.png
+  detection_source_url: https://github.com/jimbrig/Rfusen.demo
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -35,6 +38,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jimbrig/Rfusen.demo
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -44,6 +48,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/jimbrig/Rfusen.demo/blob/main/.github/workflows/R-CMD-check.yaml
   detection_source: ".github/workflows/R-CMD-check.yaml"
   last_updated_by: Jimmy Briggs
   last_updated_on: 2023-06-04 00:09:37.000000000 Z
@@ -55,6 +60,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/jimbrig/Rfusen.demo/blob/main/DESCRIPTION
   detection_source: DESCRIPTION
   last_updated_by: Jimmy Briggs
   last_updated_on: 2023-06-04 00:09:37.000000000 Z
@@ -66,6 +72,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/jimbrig/Rfusen.demo/blob/main/DESCRIPTION
   detection_source: DESCRIPTION
   last_updated_by: Jimmy Briggs
   last_updated_on: 2023-06-04 00:09:37.000000000 Z
@@ -77,6 +84,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/jimbrig/Rfusen.demo/blob/main/DESCRIPTION
   detection_source: DESCRIPTION
   last_updated_by: Jimmy Briggs
   last_updated_on: 2023-06-04 00:09:37.000000000 Z

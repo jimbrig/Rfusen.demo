@@ -1,0 +1,90 @@
+repo_name: jimbrig/Rfusen.demo
+report_id: 29691f90882bda452d6a4a963e5adc63
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:58:59+00:00'
+requested_by: jimbrig
+provider: github
+branch: main
+detected_tools_count: 7
+tools:
+- name: Markdown
+  description: Text-to-HTML conversion tool/syntax for web writers, by John Gruber
+  website_url: http://daringfireball.net/projects/markdown/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1147/markdown.png
+  detection_source_url: https://github.com/jimbrig/Rfusen.demo/blob/main/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2023-06-04 00:09:37.000000000 Z
+- name: R Language
+  description: A language and environment for statistical computing and graphics
+  website_url: http://www.r-project.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1213/r-logo.png
+  detection_source_url: https://github.com/jimbrig/Rfusen.demo
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jimbrig/Rfusen.demo
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/jimbrig/Rfusen.demo/blob/main/.github/workflows/R-CMD-check.yaml
+  detection_source: ".github/workflows/R-CMD-check.yaml"
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2023-06-04 00:09:37.000000000 Z
+- name: knitr
+  description: A General-Purpose Package for Dynamic Report Generation in R
+  package_url: https://cran.r-project.org/knitr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/jimbrig/Rfusen.demo/blob/main/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2023-06-04 00:09:37.000000000 Z
+- name: rmarkdown
+  description: Dynamic Documents for R
+  package_url: https://cran.r-project.org/rmarkdown
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/jimbrig/Rfusen.demo/blob/main/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2023-06-04 00:09:37.000000000 Z
+- name: testthat
+  description: Unit Testing for R
+  package_url: https://cran.r-project.org/testthat
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/jimbrig/Rfusen.demo/blob/main/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2023-06-04 00:09:37.000000000 Z
